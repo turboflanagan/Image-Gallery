@@ -12,17 +12,31 @@ h1{
 }
 
 .thumbnails{
-	width: 20%;
+	width: 10%;
 	float: left;
 	margin: 0 2%;
 }
+
+.thumbnailsRight{
+width: 10%;
+	float: right;
+	margin: 0 2%;
+}
 .thumbnails img{
-		height: 80px;
 		border: 4px solid #555;
-		max-width: 100%;
+		width: 100%;
+}
+
+.thumbnailsRight img{
+		border: 4px solid #555;
+		width: 100%;
 }
 
 .thumbnails img:hover{
+	border: 4px solid red;
+}
+
+.thumbnailsRight img:hover{
 	border: 4px solid red;
 }
 
@@ -30,10 +44,21 @@ h1{
 	text-align: center;
 	width: 72%;
 	float: left;
-	margin: 0 2%;
+	margin: auto;
 }
 
 .preview img{
-	width: 100%;
+	width: 40%;
 	max-width: 100%;
+	margin-top: 20%;
 }
+
+figcaption, caption{
+	text-align: center;
+	color: yellow;
+}
+
+
+
+
+
