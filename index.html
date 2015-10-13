@@ -18,15 +18,19 @@
 		<!-- Wrapper for the thumbnails -->
 		<div class="thumbnails">
 
-			<img onmouseover="preview.src=img1.src" name="img1" src="images/image1.jpg" alt=""/>
+<!-- Img 1 is previewed only when it is double clicked.-->
+			<img ondblclick="preview.src=img1.src" name="img1" src="images/image1.jpg" alt="Hubble image"/>
 				<figcaption>Img 1</figcaption>
-			<img onmouseover="preview.src=img2.src" name="img2" src="images/image2.jpg" alt=""/>
+				
+<!-- Images below are previewed when moused over -->				
+
+			<img onmouseover="preview.src=img2.src" name="img2" src="images/image2.jpg" alt="Hubble image"/>
 				<figcaption>Img 2</figcaption>
-			<img onmouseover="preview.src=img3.src" name="img3" src="images/image3.jpg" alt=""/>
+			<img onmouseover="preview.src=img3.src" name="img3" src="images/image3.jpg" alt="Hubble image"/>
 				<figcaption>Img 3</figcaption>
-			<img onmouseover="preview.src=img4.src" name="img4" src="images/image4.jpg" alt=""/>
+			<img onmouseover="preview.src=img4.src" name="img4" src="images/image4.jpg" alt="Hubble image"/>
 				<figcaption>Img 4</figcaption>
-			<img onmouseover="preview.src=img5.src" name="img5" src="images/image5.jpg" alt=""/>
+			<img onmouseover="preview.src=img5.src" name="img5" src="images/image5.jpg" alt="Hubble image"/>
 				<figcaption>Img 5</figcaption>
 		</div>
 
@@ -36,10 +40,13 @@
 
 		<div class="thumbnailsRight">
 
-			<img onmouseover="preview.src=img1.src" name="img6" src="images/image1.jpg" alt=""/>
+<!-- Img 6 & 7 must be clicked to preview.-->
+			<img onclick="preview.src=img1.src" name="img6" src="images/image1.jpg" alt=""/>
 				<figcaption>Img 6</figcaption>
-			<img onmouseover="preview.src=img2.src" name="img7" src="images/image2.jpg" alt=""/>
+			<img onclick="preview.src=img2.src" name="img7" src="images/image2.jpg" alt=""/>
 				<figcaption>Img 7</figcaption>
+
+<!-- Images below are previewed when moused over -->				
 			<img onmouseover="preview.src=img3.src" name="img8" src="images/image3.jpg" alt=""/>
 				<figcaption>Img 8</figcaption>
 			<img onmouseover="preview.src=img4.src" name="img9" src="images/image4.jpg" alt=""/>
